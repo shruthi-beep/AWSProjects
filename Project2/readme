@@ -1,5 +1,5 @@
 # VPC+EC2+Internet Gateway(IG)+Security Groups (SG)
-1. Created a VPC with 2 subnets (1. Public 2. Private)
+1. Created a VPC with 2 subnets (1. Public 2. Private). Assigned CID IP ranges. Ideal range for VPC is /16 to get most of IPs. Ideal range for subnets would be /24 to get 256 IPs.
 2. Created an Internet Gateway. Updated it's routing table to give internet access.
 3. Created 2 different routing tables for 2 subnets and attached one for each.
 4. Edit public subnet routing table to attach internet gateway access. This way we can make this subnet public.
