@@ -14,4 +14,5 @@ Testing:
 1. Try accessing public ec2 instance in browser using public IP---gets success as you allowed traffic on port 80
 2. Try accessing private ec2 instance in browser using public IP---fails as you only allowed traffic from public ec2 instance.
 
-![Architecture Diagram](images/VPC+EC2+IG+NAT.png)
+![VPC Diagram](images/VPC+EC2+IG+NAT.png)
+
